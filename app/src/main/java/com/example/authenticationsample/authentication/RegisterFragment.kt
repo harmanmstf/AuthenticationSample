@@ -1,4 +1,4 @@
-package com.example.authenticationsample
+package com.example.authenticationsample.authentication
 
 import android.os.Bundle
 import androidx.fragment.app.Fragment

@@ -7,7 +7,7 @@
 
     <fragment
         android:id="@+id/registerFragment"
-        android:name="com.example.authenticationsample.RegisterFragment"
+        android:name="com.example.authenticationsample.authentication.RegisterFragment"
         android:label="fragment_register"
         tools:layout="@layout/fragment_register" >
         <action
@@ -19,7 +19,7 @@
     </fragment>
     <fragment
         android:id="@+id/verificationFragment"
-        android:name="com.example.authenticationsample.VerificationFragment"
+        android:name="com.example.authenticationsample.authentication.VerificationFragment"
         android:label="fragment_verification"
         tools:layout="@layout/fragment_verification" >
         <argument
@@ -31,7 +31,7 @@
     </fragment>
     <fragment
         android:id="@+id/signInFragment"
-        android:name="com.example.authenticationsample.SignInFragment"
+        android:name="com.example.authenticationsample.authentication.SignInFragment"
         android:label="fragment_sign_in"
         tools:layout="@layout/fragment_sign_in" >
         <action
@@ -40,9 +40,9 @@
     </fragment>
     <fragment
         android:id="@+id/loginFragment"
-        android:name="com.example.authenticationsample.LoginFragment"
+        android:name="com.example.authenticationsample.firestore.UploadPhotoFragment"
         android:label="fragment_login"
-        tools:layout="@layout/fragment_login" >
+        tools:layout="@layout/fragment_upload_photo" >
         <action
             android:id="@+id/action_loginFragment_to_registerFragment"
             app:destination="@id/registerFragment" />
